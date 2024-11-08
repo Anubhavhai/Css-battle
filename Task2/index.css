@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body
+{
+    height: 100vh;
+}
+.nav
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+
+    background-color: white;
+    width:fit-content
+
+}
+.searchBar input
+{
+    width: 25vw;
+    height: 4vh;
+    border-radius: 3rem;
+    
+}
+.links{
+    display: fles
+    ;
+}
+.links ul
+{
+    display: flex;
+}
+.links ul li{
+    display: flex;
+    text-decoration: aqua;
+    color: white;
+    padding: 1vw;
+}
+.links ul li a
+{
+    display: flex;
+    text-decoration: none;
+    color: grey;
+   
+}
+.main
+{
+    margin-top: 15%;
+    margin-left: 2vw;
+    
+    background-color: white;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    align-items: center;
+}
+.card1
+{
+    width: 17vw;
+    height: 35vh;
+   
+    background: linear-gradient(90deg, rgba(70,54,99,1) 11%, rgba(68,42,177,0.7579364509475666) 57%, rgba(73,195,199,0.6767039579503676) 100%);
+justify-content: center;
+align-items: center;
+border-radius: 1vw;
+   
+}
+
+.card2
+{
+    width: 17vw;
+    height: 35vh;
+    background: rgb(235,83,47);
+background: linear-gradient(90deg, rgba(235,83,47,1) 0%, rgba(255,88,0,0.7579364509475666) 57%, rgba(161,139,34,1) 100%);
+    background-color: green;
+    border-radius: 1vw;
+}
+
+.card3
+{
+    width: 17vw;
+    height: 35vh;
+    background-color: yellow;
+    border-radius: 1vw;
+    background: rgb(70,54,99);
+background: linear-gradient(90deg, rgba(70,54,99,1) 11%, rgba(68,42,177,0.7579364509475666) 57%, rgba(73,195,199,0.6767039579503676) 100%);
+}
+.card4
+{
+    width: 17vw;
+    height: 35vh;
+    background-color: blue;
+    border-radius: 1vw;
+    background: rgb(226,48,48);
+background: linear-gradient(90deg, rgba(226,48,48,1) 11%, rgba(61,47,121,0.7579364509475666) 57%, rgba(73,170,199,0.6767039579503676) 100%);
+}
+.footer
+{
+    display: flex;
+}
+.footer ul
+{
+    display: flex;
+    padding: 2vw;
+
+}
+.footer UL li
+{
+    display: flex;
+    text-decoration: none;
+    color: grey;
+    padding: 1vw;
+}
