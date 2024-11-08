@@ -7,6 +7,8 @@
 body
 {
     height: 100vh;
+
+  
 }
 .nav
 {
@@ -56,7 +58,7 @@ body
 }
 .main
 {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 2vw;
     
     background-color: white;
@@ -64,7 +66,7 @@ body
     display: flex;
     justify-content: space-between;
     
-    
+    height: 50vh;
     align-items: center;
 }
 .card1
@@ -107,20 +109,25 @@ background: linear-gradient(90deg, rgba(70,54,99,1) 11%, rgba(68,42,177,0.757936
     background: rgb(226,48,48);
 background: linear-gradient(90deg, rgba(226,48,48,1) 11%, rgba(61,47,121,0.7579364509475666) 57%, rgba(73,170,199,0.6767039579503676) 100%);
 }
-.footer
-{
+.footer {
+    background-color: #c2bfbf;
+    padding: 1rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
 }
-.footer ul
-{
-    display: flex;
-    padding: 2vw;
 
-}
-.footer UL li
-{
+.footer ul {
     display: flex;
+    list-style: none;
+}
+
+.footer ul li {
+    margin: 0 1rem;
+}
+
+.footer ul li a {
     text-decoration: none;
     color: grey;
-    padding: 1vw;
 }
